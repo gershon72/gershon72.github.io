@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+.menu {
+  height: 100px;
+  background-color: #95989A;    
+}
+.textlogo {
+   float: left;
+   
+   margin-top: 15px;
+   
+   margin-left: 40px;
+   font-size: 30px;
+}
+
+li.active a {
+  background-color: #95989A;    
+}
+
+a:hover {
+    color: #800020;
+}
+
+a:active {
+    color:#800020;
+}
+#menubar li {
+    display:inline;
+    width:150px;
+    
+    text-align:center;
+    background-color: #95989A;
+    float: right;
+    margin-top: 40px;
+    
+}
+
+.socialmedia {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;    
+}
+
+.content {
+  height: 1220px;
+  
+  width: 100%;
+
+}
+
+.contentbox {
+	padding-top: 15px;
+	margin-top: 10px;
+  
+	background-color: #000;
+	color: white;
+	height: 1125px;
+	text-align: left;
+	width: 40%;
+	 /*border styling */
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+
+    /*border roundness */
+    border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+}
+
+.portrait {
+  margin-right: 15px;
+}
+
+.resumebox {
+  padding-bottom: 50px;
+  padding-right: 50px;
+  margin-right: 15px;
+  text-align: left;
+}
+
+.myButton {
+  background-color:#000000;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #000000;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color:#95989A;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+}
+
+.footer {
+  height: 100px;
+  background-color: #D6E9FE;   
+}
+
+.page {
+	background-image: url("../img/GKBackground1.png");
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+}
+
+  .resume {
+    margin-right: 15px;
+  }
+
+  .resume2{
+    padding-bottom: 100px;
+    margin-right: 15px;
+  }
+
+  .footer {
+  height: 100px;
+  background-color: #95989A;    
+}
+
